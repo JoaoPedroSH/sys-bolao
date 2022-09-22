@@ -8,6 +8,6 @@ yarn serve
 ou
 ````sh
 npm install
-npm serve
+npm run serve
 ````
  
