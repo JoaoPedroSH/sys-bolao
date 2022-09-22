@@ -1,13 +1,13 @@
 # Documentation
 
 ## Install Dependeces
-''''sh
+````sh
 yarn
 yarn serve
-''''
+````
 ou
-''''sh
+````sh
 npm install
 npm serve
-''''
+````
  
