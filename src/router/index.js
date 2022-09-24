@@ -6,7 +6,8 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    redirect: 'my_boloes',
+    name: 'my_boloes',
+    component: () => import('@/views/pages/MyBoloes.vue'),
   },
   {
     path: '/meus-boloes',
