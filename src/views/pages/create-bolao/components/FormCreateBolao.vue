@@ -82,10 +82,10 @@
         ></v-text-field>
       </v-col>
 
-      
+      <input type="hidden" value="criar" id="criar" name="criar">
 
       <v-col cols="12">
-        <v-btn color="primary">
+        <v-btn value="criar" color="primary" @click.prevent="passwordVerify()">
           Criar
         </v-btn>
         <v-btn
@@ -103,6 +103,7 @@
 
 <script>
 
+import axios from 'axios';
 
 export default {
   data() {
@@ -133,7 +134,16 @@ export default {
       this.createBolao()
     },
     createBolao() {
-    
+      axios.post('http://localhost/ServeSysBolao/services/create_bolao.php', {
+        nameBolao: this.nameBolao,
+        qtdUsers: this.qtdUsers,
+        description: this.description,
+        password: this.password,
+        confirmPassword: this.confirmPassword,
+        bolaoPrivate: this.bolaoPrivate
+      }).then((response) => {
+        console.log(response);
+      });
     }
   },
   

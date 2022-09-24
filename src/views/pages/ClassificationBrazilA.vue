@@ -1,7 +1,6 @@
 <template></template>
 
 <script>
-import axiosIns from '@/utils/axios'
 
 export default {
   data() {
@@ -13,9 +12,7 @@ export default {
 
   methods: {
     getTabela() {
-      axiosIns.get('').then((response) => {
-        console.log(response);
-      })
+
     },
   },
   created() {
