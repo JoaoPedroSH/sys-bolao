@@ -17,7 +17,7 @@ const routes = [
   {
     path: '/criar-bolao',
     name: 'create_bolao',
-    component: () => import('@/views/pages/CreateBolao.vue'),
+    component: () => import('@/views/pages/create-bolao/CreateBolao.vue'),
   },
   {
     path: '/classificacao-brasileirao-a',
