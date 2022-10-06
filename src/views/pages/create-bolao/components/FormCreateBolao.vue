@@ -43,9 +43,9 @@
         ></v-text-field>
       </v-col>
 
-      <v-col cols="2">
+      <v-col cols="12">
         <v-checkbox
-          v-model="bolaoPrivate"
+          v-model="bolaoPrivate"    
           label="Privado"
           class="mt-0"
           hide-details
@@ -63,7 +63,7 @@
           type="password"
           outlined
           dense
-          hide-details
+          hide-details  
         ></v-text-field>
       </v-col>
 
