@@ -6,13 +6,13 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    name: 'my_boloes',
-    component: () => import('@/views/pages/MyBoloes.vue'),
+    name: 'noticies',
+    component: () => import('@/views/pages/Noticies.vue'),
   },
   {
     path: '/meus-boloes',
     name: 'my_boloes',
-    component: () => import('@/views/pages/MyBoloes.vue'),
+    component: () => import('@/views/pages/my-boloes/MyBoloes.vue'),
   },
   {
     path: '/criar-bolao',

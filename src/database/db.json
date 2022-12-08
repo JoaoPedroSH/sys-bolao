@@ -1,0 +1,76 @@
+{
+  "boloes": [
+    {
+      "nomeBolao": "dfvdf",
+      "quantidadePessoas": 3,
+      "descricao": "vdfvdfv",
+      "bolaoPrivado": false,
+      "senha": "",
+      "confirmacaoSenha": "",
+      "id": 5
+    },
+    {
+      "nomeBolao": "dfvdfvdf",
+      "quantidadePessoas": 3,
+      "descricao": "fdvdfv",
+      "bolaoPrivado": false,
+      "senha": "",
+      "confirmacaoSenha": "",
+      "id": 6
+    },
+    {
+      "nomeBolao": "sdcsdc",
+      "quantidadePessoas": 3,
+      "descricao": "fdvdfvsdcsd",
+      "bolaoPrivado": false,
+      "senha": "",
+      "confirmacaoSenha": "",
+      "id": 7
+    },
+    {
+      "nomeBolao": "asdasd",
+      "quantidadePessoas": 3,
+      "descricao": "asdasd",
+      "bolaoPrivado": false,
+      "senha": "",
+      "confirmacaoSenha": "",
+      "id": 8
+    },
+    {
+      "nomeBolao": "sdcsdc",
+      "quantidadePessoas": 3,
+      "descricao": "sdcsdc",
+      "bolaoPrivado": false,
+      "senha": "",
+      "confirmacaoSenha": "",
+      "id": 9
+    },
+    {
+      "nomeBolao": "sfsdfsdfsd",
+      "quantidadePessoas": 3,
+      "descricao": "vxcvxcv",
+      "bolaoPrivado": true,
+      "senha": "27072001",
+      "confirmacaoSenha": "27072001",
+      "id": 10
+    },
+    {
+      "nomeBolao": "sfsdfsdfsd",
+      "quantidadePessoas": 3,
+      "descricao": "vxcvxcv",
+      "bolaoPrivado": true,
+      "senha": "27072001",
+      "confirmacaoSenha": "27072001",
+      "id": 11
+    },
+    {
+      "nomeBolao": "sfsdfsdfsd",
+      "quantidadePessoas": 3,
+      "descricao": "vxcvxcv",
+      "bolaoPrivado": true,
+      "senha": "27072001",
+      "confirmacaoSenha": "27072001",
+      "id": 12
+    }
+  ]
+}

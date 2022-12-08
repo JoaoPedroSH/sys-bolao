@@ -30,6 +30,12 @@
     <v-list expand shaped class="vertical-nav-menu-items pr-5">
 
       <nav-menu-link
+        title="Notícias"
+        :to="{ name: 'noticies' }"
+        :icon="icons.mdiAccountDetailsOutline"
+      ></nav-menu-link>
+
+      <nav-menu-link
         title="Meus Bolões"
         :to="{ name: 'my_boloes' }"
         :icon="icons.mdiAccountDetailsOutline"
