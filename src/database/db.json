@@ -71,6 +71,15 @@
       "senha": "27072001",
       "confirmacaoSenha": "27072001",
       "id": 12
+    },
+    {
+      "nomeBolao": "Bolão dos amigos",
+      "quantidadePessoas": "20",
+      "descricao": "asdfasdfa",
+      "bolaoPrivado": true,
+      "senha": "123456",
+      "confirmacaoSenha": "123456",
+      "id": 13
     }
   ]
 }
