@@ -62,11 +62,6 @@ const routes = [
     path: '*',
     redirect: 'error-404',
   },
-
-
-
-
-
   {
     path: '/dashboard',
     name: 'dashboard',
